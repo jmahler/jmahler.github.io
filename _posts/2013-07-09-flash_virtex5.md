@@ -51,13 +51,16 @@ Refer to page 35 of [ug347][ug347] for further information.
 used to select which revision.  For the simple examples here, it
 can be left at zero.
 
+Note: the address bits are actually reversed.
+An address of 1 would be `A[1:3] = 001`.
+
 `M[4:6]` are the mode bits.  These select which flash chip to program
 (e.g. Platform Flash, BPI, SPI, etc).
 
 `X` is not used.
 
 `C` is the System ACE configuration.  Usually this makes no difference
-because the the CF card is removed.  If the card was inserted it would
+because the CF card is removed.  If the card was inserted it would
 try to load from there first.  It is easiest just to remove the card
 and ignore this bit.
 
