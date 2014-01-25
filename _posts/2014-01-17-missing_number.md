@@ -8,8 +8,12 @@ tags: Numbers, C, Interview, Electrical Engineering
 
 # Question
 
-You are given two arrays which should be equal but one
-is missing a number.
+You are given two arrays representing two sets of numbers.
+The numbers are in any order, may have duplicates, and are
+not necessarily consecutive.
+
+The two arrays should have the same set of numbers but one
+numbers is missing.
 
 Write a C program to find the missing number.
 
