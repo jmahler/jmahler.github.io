@@ -13,7 +13,7 @@ The numbers are in any order, may have duplicates, and are
 not necessarily consecutive.
 
 The two arrays should have the same set of numbers but one
-numbers is missing.
+number is missing.
 
 Write a C program to find the missing number.
 
