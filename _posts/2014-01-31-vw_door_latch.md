@@ -26,4 +26,21 @@ There are several goals of this document:
 1.  Describe its operation (electrical switches).
 1.  Devise absolutely certain method of diagnosis.
 
+
+## Operation
+
+Before determining how the door latch has failed it is necessary to
+understand its operation.
+The wiring diagram related to the door latch, F220, is shown below.
+Notice that it appears to be composed entirely of passive components;
+switches and one motor.
+There is ground connection at 206 which goes through the latch and
+out on 304.
+There is a push button switch near 304.
+There is no indication of which switches correspond to which operation.
+And there is no indication of what voltage is present on these wires.
+In particular, what voltage is used to drive the motor.
+
+![Door Latch Schematic]({{site.url}}/images/door_latch/door_latch_schematic.png)
+
 This document is a work in progress, check back for updates...
