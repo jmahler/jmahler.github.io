@@ -43,4 +43,17 @@ In particular, what voltage is used to drive the motor.
 
 ![Door Latch Schematic]({{site.url}}/images/door_latch/door_latch_schematic.png)
 
+## Diagnosis
+
+Typically if the door puddle light is out this is a good indication
+that the switch inside that latch that indicates open/closed has failed.
+But this is not a foolproof indicator.  What if the bulb has failed?
+A good secondary check would be to examine the interior light above
+the rear view mirror.  If it reacts normally it is likely the bulb
+in the puddle light.  If it does not it may still be a latch.
+Another secondary check is to listen for a door chime when they key is
+inserted and the door is opened.
+Many of these checks can suggest a door latch switch failure but none
+of them are definitive.
+
 This document is a work in progress, check back for updates...
