@@ -56,4 +56,26 @@ inserted and the door is opened.
 Many of these checks can suggest a door latch switch failure but none
 of them are definitive.
 
+The table below shows the expected operation at the pins of the 8-pin
+connector on the door latch.  Not all operations could be determined.
+However this is acceptable since the problem is only relevant to one switch.
+
+<table>
+<tr><th>pin</th><th>operation</th></tr>
+<tr><td valign="top">1 - 2</td><td>motor<br>
+						10 ohm resistance<br>
+						0.5 sec 10 volt pulse in one direction.<br>
+						Exact operation unknown.</td></tr>
+<tr><td>4 - 7</td><td>normally open, key clockwise, switch closed</td></tr>
+<tr><td>6 - 7</td><td>normally open, key counter-clockwise, switch closed</td></tr>
+<tr><td>3 - 7</td><td>unknown</td></tr>
+<tr><td>5 - 7</td><td>unknown</td></tr>
+<tr><td valign="top">7 - 8</td><td>door open, switch closed<br>
+						door closed, switch open</td></tr>
+</table>
+
+The switch across pins 7-8 is the one that fails.
+Interestingly, it is the only switch that is exposed to the outside.
+All others are enclosed in a moisture resistance enclosure.
+
 This document is a work in progress, check back for updates...
