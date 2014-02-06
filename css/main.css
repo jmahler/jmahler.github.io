@@ -129,7 +129,7 @@ table, th, td {
 	border: 1px solid black;
 }
 
-td {
+th, td {
 	padding: 4px;
 }
 
