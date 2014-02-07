@@ -6,6 +6,8 @@ category: Electrical Engineering
 tags: Electrical Engineering, Automotive
 ---
 
+![door_latch]({{site.url}}/images/door_latch/door_latch-x300.jpg)
+
 The front door latch found on 1999 to 2005 (Mk4) Volkswagen Jettas, Golfs
 and Beetles is a common failure item.
 Typically, when they fail, they behave as if the door is always
@@ -77,5 +79,7 @@ However this is acceptable since the problem is only relevant to one switch.
 The switch across pins 7-8 is the one that fails.
 Interestingly, it is the only switch that is exposed to the outside.
 All others are enclosed in a moisture resistance enclosure.
+
+![door_latch_switch]({{site.url}}/images/door_latch/door_latch_switch-x300.jpg)
 
 This document is a work in progress, check back for updates...
