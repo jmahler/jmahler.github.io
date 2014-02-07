@@ -1,66 +1,46 @@
 ---
 layout: post
-title: "Failure Analysis of VW Mk4 Door Latch"
+title: "Failure Analysis of a Volkswagen Mk4 Door Latch"
 date: 2014-01-31 1:00
 category: Electrical Engineering
 tags: Electrical Engineering, Automotive
 ---
 
-![door_latch]({{site.url}}/images/door_latch/door_latch-x300.jpg)
-
-The front door latch found on 1999 to 2005 (Mk4) Volkswagen Jettas, Golfs
-and Beetles is a common failure item.
-Typically, when they fail, they behave as if the door is always
-open or always closed.
-And in some cases this failure is sporadic.
+## Affected Vehicles
 
 <table>
 <tr><td>year</td><td>1999 - 2005</td></tr>
 <tr><td>make</td><td>Volkswagen</td></tr>
-<tr><td>model</td><td>Golf, Jetta</td></tr>
+<tr><td>model</td><td>Golf, Jetta, New Beetle</td></tr>
 <tr><td valign="top">part number</td><td>3B1 837 015 J (left)<br>
 						Other numbers possible.</td></tr>
 </table>
 
-There are several goals of this document:
+## Symptoms
 
-1.  Determine the root cause of failure.
-1.  Describe its operation (electrical switches).
-1.  Devise absolutely certain method of diagnosis.
+Opening and closing front door does not produce the normal events.
+Dome light and puddle light may be always off, always on, or work
+sporadically.
+The door chime for the driver side does not sound when driver door
+is opened or it chimes continuously.
+The alarm behaves incorrectly, locking the car, or sounding when
+door is opened.
 
+## Background and Operation
 
-## Operation
+![door_latch]({{site.url}}/images/door_latch/door_latch-x300.jpg)
 
-Before determining how the door latch has failed it is necessary to
-understand its operation.
-The wiring diagram related to the door latch, F220, is shown below.
-Notice that it appears to be composed entirely of passive components;
-switches and one motor.
-There is ground connection at 206 which goes through the latch and
-out on 304.
-There is a push button switch near 304.
-There is no indication of which switches correspond to which operation.
-And there is no indication of what voltage is present on these wires.
-In particular, what voltage is used to drive the motor.
+The door latch (F220) consists of several mechanical switches as
+shown in the wiring diagram below.
+Notice that it is composed entirely of passive components:
+several switches and one motor.
+The switch on pin 8 near 304 is the door open/closed detection switch.
+There is a ground connection at 206 which serves all the switches in the latch.
 
 ![Door Latch Schematic]({{site.url}}/images/door_latch/door_latch_schematic.png)
 
-## Diagnosis
-
-Typically if the door puddle light is out this is a good indication
-that the switch inside that latch that indicates open/closed has failed.
-But this is not a foolproof indicator.  What if the bulb has failed?
-A good secondary check would be to examine the interior light above
-the rear view mirror.  If it reacts normally it is likely the bulb
-in the puddle light.  If it does not it may still be a latch.
-Another secondary check is to listen for a door chime when they key is
-inserted and the door is opened.
-Many of these checks can suggest a door latch switch failure but none
-of them are definitive.
-
 The table below shows the expected operation at the pins of the 8-pin
-connector on the door latch.  Not all operations could be determined.
-However this is acceptable since the problem is only relevant to one switch.
+connector on the door latch.  Not all operations have been determined.
 
 <table>
 <tr><th>pin</th><th>operation</th></tr>
@@ -76,10 +56,33 @@ However this is acceptable since the problem is only relevant to one switch.
 						door closed, switch open</td></tr>
 </table>
 
-The switch across pins 7-8 is the one that fails.
-Interestingly, it is the only switch that is exposed to the outside.
-All others are enclosed in a moisture resistance enclosure.
+The switch across pins 7-8 which detects the door open/close position
+is the one that fails.
+Interestingly, as shown below, it is the only switch that is exposed to the outside.
+All the other switches are encased inside a moisture resistant enclosure.
 
 ![door_latch_switch]({{site.url}}/images/door_latch/door_latch_switch-x300.jpg)
 
-This document is a work in progress, check back for updates...
+## Diagnosis
+
+First it should be verified that none of the door open/close
+events produce the expected result.
+The dome light and puddle light never go on or always stay on.
+If it is a driver side door latch, the door chime never comes on or
+always stays on.
+Keep it mind that it is possible that the dome light, puddle light, and
+door chime are all faulty.
+Incorrectly diagnosing these faults as a door latch should be avoided.
+
+Once it has been determined that the door latch switch is most likely at fault
+the next step is to disassemble the door to gain access to the latch.
+As a final check the continuity between pins 7-8 on the door latch
+can be checked to verify the failure.
+
+## Repair
+
+To fix this problem, the door latch should be replaced.
+
+It may be possible to repair the latch by replacing the contact switch
+and/or re-flowing the solder joints inside the enclosure.
+But this option has not been explored.
