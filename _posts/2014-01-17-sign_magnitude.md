@@ -2,8 +2,8 @@
 layout: post
 title: "Sign Magnitude of Signed/Unsigned 16-bit"
 date: 2014-01-17 1:00
-category: Electrical Engineering
-tags: [Numbers, Interview, Electrical Engineering]
+category: Programming
+tags: [Programming, Numbers, Interview, Electrical Engineering]
 ---
 
 # Question

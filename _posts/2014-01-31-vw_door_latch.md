@@ -2,8 +2,8 @@
 layout: post
 title: "Failure Analysis of a Volkswagen Mk4 Door Latch"
 date: 2014-01-31 1:00
-category: Electrical Engineering
-tags: [Electrical Engineering, Automotive]
+category: Automotive
+tags: [Automotive, Electrical Engineering]
 ---
 
 ## Affected Vehicles
