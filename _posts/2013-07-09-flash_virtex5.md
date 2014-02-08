@@ -3,7 +3,7 @@ layout: post
 title: Xilinx Virtex 5 (ML506) Flash Programming
 date: 2013-07-09 12:00
 category: FPGA
-tags: FPGA, Xilinx, Virtex 5
+tags: [FPGA, Xilinx, Virtex 5]
 ---
 
 # Introduction

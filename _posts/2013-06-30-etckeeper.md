@@ -3,7 +3,7 @@ layout: post
 title: "Using Git to Manage /etc With Etckeeper"
 date: 2013-06-30 12:00
 category: Git
-tags: Git, Etckeeper
+tags: [Git, Etckeeper]
 author: Jeremiah Mahler
 summary: Using Git to Manage /etc With Etckeeper
 ---

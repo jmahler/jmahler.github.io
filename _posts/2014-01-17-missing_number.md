@@ -3,7 +3,7 @@ layout: post
 title: "Find Missing Number In Two Arrays"
 date: 2014-01-17 1:00
 category: Electrical Engineering
-tags: Numbers, C, Interview, Electrical Engineering
+tags: [Numbers, C, Interview, Electrical Engineering]
 ---
 
 # Question
