@@ -47,6 +47,8 @@ Would you allow the new technology or continue with the old?
 
 1. Tell me about a challenging problem that kept you up late at night.
 
+1. Why did you choose Electrical Engineering?
+
 # For Electrical Engineers, Programmers
 
 1. Have you ever written good quality C code that used a goto statement?
