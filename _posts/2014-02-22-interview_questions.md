@@ -49,3 +49,5 @@ Would you allow the new technology or continue with the old?
 
 # For Electrical Engineers, Programmers
 
+1. Have you ever written good quality C code that used a goto statement?
+
