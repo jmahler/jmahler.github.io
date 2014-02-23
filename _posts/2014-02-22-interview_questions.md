@@ -39,16 +39,13 @@ While this solution satisfies all of the customers functional requirements,
 it uses a technology that was not agreed upon.
 Would you allow the new technology or continue with the old?
 
-# From Electrical Engineers
-
-# For Electrical Engineers
-
-
-# From Programmers
+# From Electrical Engineers, Programmers
 
 1. What is your favorite programming language?
 
 1. What is a memory leak?
 
-# For Programmers
+1. Tell me about a challenging problem that kept you up late at night.
+
+# For Electrical Engineers, Programmers
 
