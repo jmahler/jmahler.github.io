@@ -146,5 +146,13 @@ not anticipate before you were hired?
 
 1. Why do you want to work for this company?  Why not competitor X or Y?
 
+  (Tesla)
+  The benefits of the electric car on our society is obvious
+  (cleaner air, reduced dependence on foreign oil,  more efficient, etc).
+  And yet most manufacturers choose not to develop an electric car even though
+  they have more than enough resources to do so.
+  I don't want to work for any manufacturer where profit is the primary
+  goal and the long term health of our society is secondary.
+
 1. Why do you think you would be a good candidate at this company?
 
