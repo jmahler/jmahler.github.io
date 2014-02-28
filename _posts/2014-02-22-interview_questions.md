@@ -15,16 +15,6 @@ Electrical Engineering and Programming.
 Included are notes describing how I would answer a question as
 well as what I am looking for in an answer.
 
-# Questions From Managers
-
-1. Where do you see yourself in 5 years?
-
-  A person should have some sort of specific goal for the future.
-
-1. Do you have any questions for me?
-
-  Having lots of interesting questions helps to show interest.
-
 # Questions For Managers
 
 1. I have read several books related to managing projects which align
@@ -85,6 +75,16 @@ Would you continue development on the old project or switch to the new one?
   sunk costs - The decision should be based upon its value in todays
   market.  Investment costs should not be part of the decision.
 
+# Questions From Managers
+
+1. Where do you see yourself in 5 years?
+
+  (A person should have some sort of specific goal for the future.)
+
+1. Do you have any questions for me?
+
+  (Having lots of interesting questions helps to show interest.)
+
 # Questions From Electrical Engineers and Programmers
 
 1. What is your favorite programming language?
@@ -141,4 +141,10 @@ not anticipate before you were hired?
   Google 20% time.  A great way to keep employees enthusiastic
   about the projects they are working on.  And the company often
   benefits from their good ideas.
+
+# Questions From Recruiters
+
+1. Why do you want to work for this company?  Why not competitor X or Y?
+
+1. Why do you think you would be a good candidate at this company?
 
