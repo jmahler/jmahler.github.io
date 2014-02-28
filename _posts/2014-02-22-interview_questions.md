@@ -43,17 +43,22 @@ you have over them, would you do it?
   - A good manager could lead even without positional authority.
   - Poor managers tend to fear any loss of control or authority.
 
-1. Suppose you have a project that has been in development for over
-a year and it looks like it could take another six months or more
-to get something working.
-And recently an alternative solution became available which was better in
-every respect and could be put in to operation in less than a week.
-But this new solution requires a one time fee of $10k for use in a
-commercial project.
-Would you continue development on the old project or switch to the new one?
+1. A project in development has two alternatives: A and B.
+Alternative A has been in development for several months and is having
+lots of problems.  And it has been decided by the managers that
+B is a poor alternative.
+An employee on the project has some free time and decides to try alternative
+B to see if it is as bad as they say it is.
+Surprisingly, alternative B is vastly superior to alternative A
+in every respect.
+He presents his results at the next weekly meeting and argues that
+all development on A should cease in favor of B.<br>
+How do you respond to this?
 
-  sunk costs - The decision should be based upon its value in todays
-  market.  Investment costs should not be part of the decision.
+  A manager with a big ego and control issues will see this attack upon
+  their authority.  And they will likely punish the employee.
+
+  A good manager will thank the employee and switch development to B.
 
 1. Your company uses Linux and other open source software.
 What does it contribute back to the community?
@@ -67,6 +72,18 @@ What does it contribute back to the community?
 	of their control often have no idea how much losing an employee costs.
   - cost of lost work
   - cost of lost knowledge
+
+1. Suppose you have a project that has been in development for over
+a year and it looks like it could take another six months or more
+to get something working.
+And recently an alternative solution became available which was better in
+every respect and could be put in to operation in less than a week.
+But this new solution requires a one time fee of $10k for use in a
+commercial project.
+Would you continue development on the old project or switch to the new one?
+
+  sunk costs - The decision should be based upon its value in todays
+  market.  Investment costs should not be part of the decision.
 
 # Questions From Electrical Engineers and Programmers
 
