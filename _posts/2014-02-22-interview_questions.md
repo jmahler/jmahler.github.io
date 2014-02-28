@@ -30,7 +30,6 @@ well as what I am looking for in an answer.
 1. I have read several books related to managing projects which align
 with my idea of an ideal workplace.  Tell me if you have read any of
 the following:
-
   1. Peopleware by Tom DeMarco
   1. Drive by Daniel Pink
   1. Getting Things Done by David Allen
@@ -39,9 +38,10 @@ the following:
 1. If you could implement a change which would significantly increase
 productivity of your employees but which would also reduce the control
 you have over them, would you do it?
-  - [Peopleware] Using a gun to lead means you have to "lead" from behind.
-  - A good manager could lead even without positional authority.
   - Poor managers tend to fear any loss of control or authority.
+  - Good managers cultivate an environment where their employees can
+    succeed and have no fear of a loss of control.
+  - (See Peopleware by Tom DeMarco for a detailed discussion)
 
 1. A project in development has two alternatives: A and B.
 Alternative A has been in development for several months and is having
@@ -55,7 +55,7 @@ He presents his results at the next weekly meeting and argues that
 all development on A should cease in favor of B.<br>
 How do you respond to this?
 
-  A manager with a big ego and control issues will see this attack upon
+  A manager with a big ego and control issues will see this as an attack upon
   their authority.  And they will likely punish the employee.
 
   A good manager will thank the employee and switch development to B.
