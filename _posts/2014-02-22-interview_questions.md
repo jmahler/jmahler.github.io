@@ -12,7 +12,8 @@ This is a collection of questions that I have been asked,
 and that have been asked of me, during job interviews.
 The technical questions are mostly related to
 Electrical Engineering and Programming.
-Include are notes as to what should be expected from the answers.
+Included are notes describing how I would answer a question as
+well as what I am looking for in an answer.
 
 # Questions From Managers
 
@@ -90,7 +91,7 @@ What does it contribute back to the community?
   When using Gcc the Valgrind program is great for tracking down
   hard to find memory leaks.
 
-1. Tell me about a challenging problem that kept you up late at night.
+1. Tell me about a challenging problem that kept you up at night.
 
 1. Why did you choose Electrical Engineering?
 
@@ -117,4 +118,10 @@ What does it contribute back to the community?
 not anticipate before you were hired?
 
 1. What is a typical day for you like?
+
+1. Are you allowed any time to work on your own ideas?
+
+  Google 20% time.  A great way to keep employees enthusiastic
+  about the projects they are working on.  And the company often
+  benefits from their good ideas.
 
