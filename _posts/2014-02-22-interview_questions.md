@@ -8,16 +8,14 @@ tags: [Interview, Programming, Electrical Engineering]
 
 # Introduction
 
-This is a collection of questions that I have been asked,
-and that have been asked of me, during job interviews.
-The technical questions are mostly related to
-Electrical Engineering and Programming.
-Included are notes describing how I would answer a question as
+This is a collection of questions that I have encountered during job interviews.
+The technical questions are related to Electrical Engineering and Programming.
+And included are notes describing how I would answer a question as
 well as what I am looking for in an answer.
 
 # Questions For Managers
 
-1. I have read several books related to managing projects which align
+1. I have read several books related to project management which align
 with my idea of an ideal workplace.  Tell me if you have read any of
 the following:
   1. Peopleware by Tom DeMarco
@@ -26,36 +24,37 @@ the following:
   1. The Mythical Man Month by Frederick P. Brooks
 
 1. If you could implement a change which would significantly increase
-productivity of your employees but which would also reduce the control
+productivity of your employees but which would also limit the control
 you have over them, would you do it?
   - Poor managers tend to fear any loss of control or authority.
   - Good managers cultivate an environment where their employees can
-    succeed and have no fear of a loss of control.
+    succeed and do not fear of a loss of control.
   - (See Peopleware by Tom DeMarco for a detailed discussion)
 
 1. A project in development has two alternatives: A and B.
 Alternative A has been in development for several months and is having
-lots of problems.  And it has been decided by the managers that
-B is a poor alternative.
-An employee on the project has some free time and decides to try alternative
-B to see if it is as bad as they say it is.
-Surprisingly, alternative B is vastly superior to alternative A
-in every respect.
-He presents his results at the next weekly meeting and argues that
-all development on A should cease in favor of B.<br>
+lots of problems.  It has been decided by you and several other
+managers that B is a poor alternative that all development should proceed on A.
+One of the employees on the project is skeptical and decides to try out
+B in his spare time.
+Surprisingly, he determines that B is vastly superior to A in every respect.
+He presents his findings at the next weekly meeting
+where he argues that the decision made by you and the other
+managers was flawed and that all development on A should
+cease in favor of B.<br>
 How do you respond to this?
 
-  A manager with a big ego and control issues will see this as an attack upon
-  their authority.  And they will likely punish the employee.
+  A manager with a big ego and control issues will see this as an attack
+  upon their authority.  And they will likely punish the employee.
 
   A good manager will thank the employee and switch development to B.
 
 1. Your company uses Linux and other open source software.
-What does it contribute back to the community?
+Does it contribute anything back to the community?
 
   They should feel obligated to contribute back to the community.
-  If their changes are not being made public this could be a licensing
-  issue as well.
+  If their changes are used in a product and not being made public this
+  could be a licensing issue as well.
 
 1. How much does turnover cost you?
   - [Peopleware] Those who try to ignore the problem or believe it is out
@@ -73,17 +72,19 @@ commercial project.
 Would you continue development on the old project or switch to the new one?
 
   sunk costs - The decision should be based upon its value in todays
-  market.  Investment costs should not be part of the decision.
+  market.  Past expenses should not influence the decision.
 
 # Questions From Managers
 
 1. Where do you see yourself in 5 years?
 
-  (A person should have some sort of specific goal for the future.)
+  (A person should have some specific goal for the future.)
 
 1. Do you have any questions for me?
 
-  (Having lots of interesting questions helps to show interest.)
+  (Having lots of questions helps to show interest.)
+
+  (see Questions For Managers section)
 
 # Questions From Electrical Engineers and Programmers
 
@@ -102,7 +103,7 @@ Would you continue development on the old project or switch to the new one?
 
   Most often this occurs in C when a malloc is performed without a
   corresponding free.  There are also functions which internally
-  allocate memory and return a pointer.  This must be freed to avoid
+  allocate memory and return a pointer.  These must be freed to avoid
   a leak.
 
   When using Gcc the Valgrind program is great for tracking down
@@ -113,8 +114,8 @@ Would you continue development on the old project or switch to the new one?
 1. Why did you choose Electrical Engineering?
 
   I chose Electrical Engineering because it was the most challenging
-  among my interests (electronics and programming).  I like programming
-  but Computer Science was not challenging enough.
+  degree among the areas I was interested in (electronics and programming).
+  I enjoy programming but Computer Science was not challenging enough.
 
 1. Plot the magnitude of a 16-bit signed and unsigned number.
 
@@ -129,7 +130,7 @@ Would you continue development on the old project or switch to the new one?
   during module insertion.
   This is the one place where a goto is acceptable.
 
-# Questions, General
+# Questions For Others, General
 
 1. What surprised you the most about working here that you did
 not anticipate before you were hired?
