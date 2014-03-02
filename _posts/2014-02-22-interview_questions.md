@@ -130,6 +130,20 @@ Would you continue development on the old project or switch to the new one?
   during module insertion.
   This is the one place where a goto is acceptable.
 
+1. You are writing a program to interface the PCIe bus and you have two
+design alternatives.  The first transfers the data to a shared
+buffer in memory.  The second uses a file and data is read in from a
+file handle.  The fastest solution is the preferred one.  Which do you choose?
+
+  "Premature optimization is the root of all evil." - Donald Knuth
+
+  Without profiling the program it is unknown whether either of these
+  choices would make any difference.  The bottle neck might be somewhere
+  else entirely in which case this optimization would be a waste to time.
+
+  Programs should be written to maximize maintainability first.
+  Then, only after profiling the code, should optimization be performed.
+
 # Questions For Others, General
 
 1. What surprised you the most about working here that you did
