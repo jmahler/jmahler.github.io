@@ -79,7 +79,8 @@ bits 4, 5 and 6 are the most important to get right.
     0 0 0 0 0 1 0 1
 
 It is assumed that a .bit file has already been created.
-How to use and configure iMPACT is the primary goal of this document.
+How to use and configure iMPACT is the primary goal of this document,
+not how to generate bitfiles with ISE.
 
 The first step with iMPACT is to create a PROM file.
 The screen shot below shows the settings that were used.
@@ -189,7 +190,7 @@ the bottom.
 
 The screen shot below shows the important iMPACT settings during
 the flash programming dialog.  There are two settings that must
-be set correctly otherwise the program wont run and there will be
+be set correctly otherwise the program won't run and there will be
 no indication of any error.  **Parallel Mode must be checked**.
 And the **internal clock must be set to 20 MHz**.
 
