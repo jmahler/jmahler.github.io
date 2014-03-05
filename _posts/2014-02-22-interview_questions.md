@@ -157,6 +157,23 @@ not anticipate before you were hired?
   about the projects they are working on.  And the company often
   benefits from their good ideas.
 
+1. One of your coworkers is not very nice to most people.
+And his criticism towards you is especially harsh.
+Tonight is your three year anniversary with your wife and you have
+reservations at an expensive restaurant.
+As you are leaving work you over hear your "favorite" employee struggling
+with a problem.  And it happens to be on a topic you know very well.<br>
+Do you stop and help or do you leave for dinner?
+
+  It is tempting to want to punish those who have unjustifiably punished you.
+  But this is almost always a no win situation.
+
+  Stopping to help would be a nice gesture which could help mend the
+  relationship between you and him.
+
+  And if it appears that the problem will take some time to resolve you could
+  offer to meet with him in the morning, so you won't be late for dinner.
+
 # Questions From Recruiters
 
 1. Why do you want to work for this company?  Why not competitor X or Y?
