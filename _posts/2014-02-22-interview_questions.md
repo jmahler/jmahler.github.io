@@ -144,6 +144,16 @@ file handle.  The fastest solution is the preferred one.  Which do you choose?
   Programs should be written to maximize maintainability first.
   Then, only after profiling the code, should optimization be performed.
 
+1. If you started working on program and they used tabs but you use spaces,
+what would you do?
+
+  You should follow whichever convention your work specifies or whatever
+  the majority of this code is already using.
+  
+1. What is a guaranteed way to offend a programmer?
+
+  Rewrite all their code.
+
 # Questions For Others, General
 
 1. What surprised you the most about working here that you did
