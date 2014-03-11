@@ -31,6 +31,12 @@ you have over them, would you do it?
     succeed and do not fear of a loss of control.
   - (See Peopleware by Tom DeMarco for a detailed discussion)
 
+1. If you had no authority over your employees would they still do what
+you ask?
+  - A boss or a leader?
+  - A boss leverages his authority to force employees to do what he wants.
+  - Employees will follow a leader even if he doesn't have authority.
+
 1. A project in development has two alternatives: A and B.
 Alternative A has been in development for several months and is having
 lots of problems.  It has been decided by you and several other
@@ -183,6 +189,10 @@ Do you stop and help or do you leave for dinner?
 
   And if it appears that the problem will take some time to resolve you could
   offer to meet with him in the morning, so you won't be late for dinner.
+
+1. If your manager had no authority to fire you would you still do what he
+asks?
+  - A boss or a leader?
 
 # Questions From Recruiters
 
