@@ -18,10 +18,13 @@ well as what I am looking for in an answer.
 1. I have read several books related to project management which align
 with my idea of an ideal workplace.  Tell me if you have read any of
 the following:
-  1. Peopleware by Tom DeMarco
-  1. Drive by Daniel Pink
+  1. [Peopleware][pw] by Tom DeMarco
+  1. [Drive][drv] by Daniel Pink
   1. Getting Things Done by David Allen
   1. The Mythical Man Month by Frederick P. Brooks
+
+  [pw]: http://books.google.com/books?id=TVQUAAAAQBAJ
+  [drv]: http://books.google.com/books?id=A-agLi2ldB4C
 
 1. If you could implement a change which would significantly increase
 productivity of your employees but which would also limit the control
@@ -29,7 +32,7 @@ you have over them, would you do it?
   - Poor managers tend to fear any loss of control or authority.
   - Good managers cultivate an environment where their employees can
     succeed and do not fear of a loss of control.
-  - (See Peopleware by Tom DeMarco for a detailed discussion)
+  - (See [Peopleware][pw] by Tom DeMarco for a detailed discussion)
 
 1. If you had no authority over your employees would they still do what
 you ask?
@@ -63,8 +66,9 @@ Does it contribute anything back to the community?
   could be a licensing issue as well.
 
 1. How much does turnover cost you?
-  - [Peopleware] Those who try to ignore the problem or believe it is out
-	of their control often have no idea how much losing an employee costs.
+  - Those who try to ignore the problem or believe it is out
+	of their control often have no idea how much losing an employee costs
+	([Peopleware][pw]).
   - cost of lost work
   - cost of lost knowledge
 
