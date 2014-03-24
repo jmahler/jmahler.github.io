@@ -84,6 +84,12 @@ Would you continue development on the old project or switch to the new one?
   sunk costs - The decision should be based upon its value in todays
   market.  Past expenses should not influence the decision.
 
+1. In Engineering there are going to be disagreements about how things
+should be done.  Tell me about a time when one of your employees
+disagreed with you.
+  - If he had to assert his authority this a red flag that they are
+  a boss and not a leader.
+
 # Questions From Managers
 
 1. Where do you see yourself in 5 years?
@@ -160,11 +166,17 @@ what would you do?
   You should follow whichever convention your work specifies or whatever
   the majority of this code is already using.
   
+1. In Engineering there are going to be disagreements about how things
+should be done.  Tell me about a time when you disagreed with your
+manager.
+  - Did his manager assert his authority to get him to do something he
+  did not agree with?
+
+# Questions For Others, General
+
 1. What is a guaranteed way to offend a programmer?
 
   Rewrite all their code.
-
-# Questions For Others, General
 
 1. What surprised you the most about working here that you did
 not anticipate before you were hired?
