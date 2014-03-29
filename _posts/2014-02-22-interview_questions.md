@@ -8,16 +8,23 @@ tags: [Interview, Programming, Electrical Engineering]
 
 # Introduction
 
-This is a collection of questions that I have encountered during job interviews.
+This is a collection of questions that I have been asked, or have asked,
+during job interviews.
 The technical questions are related to Electrical Engineering and Programming.
 And included are notes describing how I would answer a question as
 well as what I am looking for in an answer.
 
 # Questions For Managers
 
-1. I have read several books related to project management which align
-with my idea of an ideal workplace.  Tell me if you have read any of
-the following:
+1. Tell me about a time when there was a disagreement among your employees
+and how you resolved it.
+  - Was he able to convince them without asserting his authority?
+
+1. Tell me about a time when one of your employees disagreed with you
+and how you resolved it.
+  - Was he able to convince the him without asserting his authority?
+
+1. Are there any books which have influenced your management style?
   1. [Peopleware][pw] by Tom DeMarco
   1. [Drive][drv] by Daniel Pink
   1. Getting Things Done by David Allen
@@ -38,7 +45,7 @@ you have over them, would you do it?
 you ask?
   - A boss or a leader?
   - A boss leverages his authority to force employees to do what he wants.
-  - Employees will follow a leader even if he doesn't have authority.
+  - People will follow a leader even if they have no authority.
 
 1. A project in development has two alternatives: A and B.
 Alternative A has been in development for several months and is having
@@ -52,43 +59,19 @@ where he argues that the decision made by you and the other
 managers was flawed and that all development on A should
 cease in favor of B.<br>
 How do you respond to this?
-
-  A manager with a big ego and control issues will see this as an attack
-  upon their authority.  And they will likely punish the employee.
-
-  A good manager will thank the employee and switch development to B.
+  - A manager with a big ego and control issues will see this as an attack
+    upon their authority.  And they will likely punish the employee.
+  - A good manager will thank the employee and switch development to B.
+  - This situation is from a project I worked on involving a PCIe driver.
+    Instead of being thanked I was punished for showing that B was a better
+    solution.  I didn't have much confidence in the success of the project
+    after that.
 
 1. Your company uses Linux and other open source software.
 Does it contribute anything back to the community?
-
-  They should feel obligated to contribute back to the community.
+  - They should feel obligated to contribute back to the community.
   If their changes are used in a product and not being made public this
   could be a licensing issue as well.
-
-1. How much does turnover cost you?
-  - Those who try to ignore the problem or believe it is out
-	of their control often have no idea how much losing an employee costs
-	([Peopleware][pw]).
-  - cost of lost work
-  - cost of lost knowledge
-
-1. Suppose you have a project that has been in development for over
-a year and it looks like it could take another six months or more
-to get something working.
-And recently an alternative solution became available which was better in
-every respect and could be put in to operation in less than a week.
-But this new solution requires a one time fee of $10k for use in a
-commercial project.
-Would you continue development on the old project or switch to the new one?
-
-  sunk costs - The decision should be based upon its value in todays
-  market.  Past expenses should not influence the decision.
-
-1. In Engineering there are going to be disagreements about how things
-should be done.  Tell me about a time when one of your employees
-disagreed with you.
-  - If he had to assert his authority this a red flag that they are
-  a boss and not a leader.
 
 # Questions From Managers
 
@@ -146,24 +129,31 @@ disagreed with you.
   during module insertion.
   This is the one place where a goto is acceptable.
 
+1. If your manager had no authority to fire you would you still do what he
+asks?
+  - A boss or a leader?
+
 1. You are writing a program to interface the PCIe bus and you have two
 design alternatives.  The first transfers the data to a shared
 buffer in memory.  The second uses a file and data is read in from a
 file handle.  The fastest solution is the preferred one.  Which do you choose?
-
-  "Premature optimization is the root of all evil." - Donald Knuth
-
-  Without profiling the program it is unknown whether either of these
+  - "Premature optimization is the root of all evil." - Donald Knuth
+  - Without profiling the program it is unknown whether either of these
   choices would make any difference.  The bottle neck might be somewhere
   else entirely in which case this optimization would be a waste to time.
-
-  Programs should be written to maximize maintainability first.
+  - Programs should be written to maximize maintainability first.
   Then, only after profiling the code, should optimization be performed.
+  - This situation is from a project I worked on involving a PCIe driver.
+  The shared buffer solution was assumed to be fastest and so the alternative
+  was not considered.  But it was also bug ridden,
+  unreliable and hard to maintain.  I showed that the solution using
+  file handles very fast, reliable and easy to use.
+  Unfortunately, due to the stubbornness of one of the managers, the project
+  continued with the inferior solution.
 
 1. If you started working on program and they used tabs but you use spaces,
 what would you do?
-
-  You should follow whichever convention your work specifies or whatever
+  - You should follow whichever convention your work specifies or whatever
   the majority of this code is already using.
   
 1. In Engineering there are going to be disagreements about how things
@@ -172,16 +162,15 @@ manager.
   - Did his manager assert his authority to get him to do something he
   did not agree with?
 
+1. What is a guaranteed way to offend a programmer?
+  - Rewrite all their code.
+
 # Questions For Others, General
 
-1. What is a guaranteed way to offend a programmer?
-
-  Rewrite all their code.
+1. What is a typical day for you like?
 
 1. What surprised you the most about working here that you did
 not anticipate before you were hired?
-
-1. What is a typical day for you like?
 
 1. Are you allowed any time to work on your own ideas?
 
@@ -196,19 +185,12 @@ reservations at an expensive restaurant.
 As you are leaving work you over hear your "favorite" employee struggling
 with a problem.  And it happens to be on a topic you know very well.<br>
 Do you stop and help or do you leave for dinner?
-
-  It is tempting to want to punish those who have unjustifiably punished you.
-  But this is almost always a no win situation.
-
-  Stopping to help would be a nice gesture which could help mend the
-  relationship between you and him.
-
-  And if it appears that the problem will take some time to resolve you could
+  - It is tempting to want to punish those who have unjustifiably punished you
+  but this is always a no win situation.
+  - Stopping to help would be a nice gesture which could help mend the
+  relationship.
+  - If it appears that the problem will take some time to resolve you could
   offer to meet with him in the morning, so you won't be late for dinner.
-
-1. If your manager had no authority to fire you would you still do what he
-asks?
-  - A boss or a leader?
 
 # Questions From Recruiters
 
