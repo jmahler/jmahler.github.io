@@ -42,6 +42,12 @@ challenge that I faced and how I overcame that challenge.
 And then I had one on one interviews with five of the engineers on
 the team.
 
+I arrived at the Palo Alto office early and had to wait for a few minutes.
+There were lots of people coming and going.  On a back wall there was
+TV screen with live supercharger statistics from across the U.S.
+And I could hear the receptionist taking calls.  Several calls were
+from people demanding to speak with Elon Musk, which I found amusing.
+
 This interview format is straight out of the book, Peopleware, by Tom DeMarco.
 Involving the team members in the hiring process makes them partially
 responsible for the success/failure of a new candidate.
@@ -78,4 +84,8 @@ It is a car hackers wonderland.
 A week after the interview I got an email saying that I wasn't selected.
 For whatever reason I wasn't the perfect candidate at that time.
 But I am optimistic that something will open up as I get closer to graduation.
+
+Nonetheless it was a great experience.  Considering
+I haven't graduated college yet and this is the first place I applied
+to and my first interview, I think I did pretty good.
 
