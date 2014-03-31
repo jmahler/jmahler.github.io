@@ -9,83 +9,103 @@ tags: [Linux]
 I introduced myself to Tesla Motors by attending a job
 fair they had at their plant in Fremont.
 The event was an absolute mad house.
-Wall to wall people.
-And it was very loud and nearly impossible to hear anyone.
-But I got my resume out to six firmware related teams.
-And it was fun getting to see the technology up close.
+There were people everywhere and it was very loud
+so conversations were difficult.
+But I did manage to get my resume out to six firmware related
+teams that looked interesting.
 
-A few weeks went by and then I was contacted by a recruiter
-that was trying to fill a position for a firmware test engineer.
-I guess someone noticed my resume!
+One of the highlights of the job fair was getting to see
+a Model S and a Roadster up close.
+They were both unlocked and free to tinker with.
+One thing that surprised me about the Model S was the lack
+of mechanical buttons on the dash.
+No ignition switch or parking brake button.
+Nearly everything is done through the touch screen.
+It is very simple and elegant.
 
-The first step was to a basic interview with the recruiter.
-Then I took a technical test.
+Almost a month later I was contacted by a recruiter.
+He was trying to fill a position for a firmware test engineer.
+The first step was to speak with the recruiter by phone.
+The conversation was fairly general: about the position,
+why I want to work for Tesla.
+
+The next step was to take a timed test that recruiter sends by email.
 The questions were fairly basic.  Voltage dividers, capacitors,
 test plans, some C programming.
-They say they only allow 30 minutes but I took longer because I
-wanted my answers to be perfect.
+They say they only allow 30 minutes for the test but I took longer
+because I wanted to make sure the answers to be correct.
 
 After this stage I interviewed with the manager of the team.
-Most just a conversation about what they do and how they manage.
+It was a general conversation about the company and he manages.
+I liked that they use a flat management structure
+where it is easy to contact others and resolve problems.
+I also liked that he is an Engineer and knows the technical details
+of these cars very well.  I also got to ask him some technical
+questions about the Model S such as why it has two calipers on the
+rear wheels (one is for the parking brake).
 
-Then they set up an interview with one of the engineers on the team.
-This interview was probably half technical questions and half
-chit chat.
-What is a memory leak, what is the purpose of the volatile, and
-other C programming questions.
+After this they set up an interview with one of the engineers on the team.
+This interview was half technical questions.
+Questions such as: what is a memory leak, what is the purpose of the volatile,
+and other C programming questions.
 It is fun just getting to know these people and to learn about what
 goes on in Tesla.
 
-At this point they decided to bring me in for an on cite interview.
-The format consists of a 15 minute presentation about a technical
-challenge that I faced and how I overcame that challenge.
-And then I had one on one interviews with five of the engineers on
-the team.
+At this point I had done well enough that they decided to bring me
+in for an on cite interview.
+The format consists of a 15 minute presentation at the beginning and
+then one on one 45 minute interviews with three engineers and two managers.
 
-I arrived at the Palo Alto office early and had to wait for a few minutes.
-There were lots of people coming and going.  On a back wall there was
-TV screen with live supercharger statistics from across the U.S.
-And I could hear the receptionist taking calls.  Several calls were
-from people demanding to speak with Elon Musk, which I found amusing.
+This interview format is similar to what is described in the book
+Peopleware by Tom DeMarco.
+By involving the team in the decision process they share the
+responsibility for the success of that candidate.
+Also, a person chosen by the team is much more likely to "gel" with
+the current team.
 
-This interview format is straight out of the book, Peopleware, by Tom DeMarco.
-Involving the team members in the hiring process makes them partially
-responsible for the success/failure of a new candidate.
-And this helps to find someone who will "gel" with the current team.
-If you haven't read Peopleware, I highly recommend it.
-It goes in to these topics in lots of detail.
-And Tesla seems to employ a lot of their recommendations.
+I arrived at the Palo Alto office for my on cite interview a few
+minutes early and had to wait in the lobby.
+It was around noon and there were lots of employees coming and going
+since this was the main entrance to the building.
+On a back wall there was TV screen with live supercharger statistics
+from across the U.S.  And I could hear the receptionist taking calls.
+Several calls were from people demanding to speak with Elon Musk,
+which I found amusing.
 
-The on cite interview was stressful but in a fun way.
+The on cite interview was stressful but fun.
 It was obvious that the engineers interviewing me were top notch.
 One engineer even drilled me with technical questions while
 simultaneously working on his phone.
 But they were all very nice and fun to chat with.
+
 There were quite a few questions which involved constructing a C program
-on a white board.
-I was somewhat lacking in this area because I was accustomed to my
-keyboard.
-So be sure to bring your laptop with you!
-I would have destroyed every programming question they had
-if I had brought my laptop.
+on a white board.  I was a bit lacking in this area.
+Questions which I would have destroyed from my laptop using Vim
+became a bit messy and unclear on a white board.
+
+One thing that I found curious was why the technical questions
+were fairly basic.  Certainly one reason is to filter out the dunces.
+But even in the on cite interview the questions were relatively basic.
+I later realized that it is possible to judge someones skill based
+upon how quickly they can answer an easy question.
+A person who can solve an easy problem as fast as they can write
+is much more likely to be good at the hard problems.
 
 The highlight of my on cite interview was the tour.
 I wish I would have asked more questions but I was a bit in
 awe of the whole operation.
-Imagine a giant room full of a thousand cubicles.
-And none of the cubicles have walls.
+Imagine a giant room full of a thousand people working in their cubicles.
+But none of the cubicles have walls, they are just desks.
 And every desk is covered with half torn apart control modules,
 wiring, test equipment, and all sorts of other stuff.
-Basically every part of the Model-S is half torn apart somewhere
-in this room and someone is working on it.
-And everyone seems very intent and focused on their work.
+Every part of the Model S is half torn apart somewhere in this room
+and someone is diligently working on it.
 It is a car hackers wonderland.
 
 A week after the interview I got an email saying that I wasn't selected.
-For whatever reason I wasn't the perfect candidate at that time.
-But I am optimistic that something will open up as I get closer to graduation.
-
-Nonetheless it was a great experience.  Considering
-I haven't graduated college yet and this is the first place I applied
-to and my first interview, I think I did pretty good.
-
+For whatever reason I wasn't the perfect candidate.
+Nonetheless, it was a great experience.
+Considering I haven't graduated college yet and this was the
+first interview I had from the first place I applied to I think
+I did pretty good.  Hopefully they will want someone like me
+after graduation.
