@@ -165,6 +165,8 @@ manager.
 1. What is a guaranteed way to offend a programmer?
   - Rewrite all their code.
 
+1. Vim or Emacs?
+
 # Questions For Others, General
 
 1. What is a typical day for you like?
