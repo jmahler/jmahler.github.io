@@ -22,7 +22,28 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1, h2 {
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
+
+#home > h1 {
+  font-size: x-large;
+}
+
+.site > .header > h1 {
+  font-size: xx-large;
+}
+.site > h2 {
+  font-size: x-large;
+}
+
+.post h1 {
+  font-size: x-large;
+}
+.post h2 {
+  font-size: large;
+}
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -70,7 +91,7 @@ a:visited { color: #a0a; }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .title a {
