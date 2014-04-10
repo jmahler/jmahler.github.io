@@ -78,10 +78,16 @@ One engineer even drilled me with technical questions while
 simultaneously working on his phone.
 But they were all very nice and fun to chat with.
 
-There were quite a few questions which involved constructing a C program
-on a white board.  I was a bit lacking in this area.
-Questions which I would have destroyed from my laptop using Vim
-became a bit messy and unclear on a white board.
+I do all my coding in Vim.
+It allows me to quickly move chunks of code around and format everything
+so it is easy to read and understand.
+And since the compiler is right there as well I can quickly
+check for syntax errors and write tests.
+Unfortunately, none of these tools I have come to depend upon were
+available because all the coding questions had to be done on a white
+board.
+As a result, problems which I should have dominated,
+became messy and hard to understand.
 
 One thing that I found curious was why the technical questions
 were fairly basic.  Certainly one reason is to filter out the dunces.
