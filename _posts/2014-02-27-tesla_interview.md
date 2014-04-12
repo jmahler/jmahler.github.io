@@ -14,14 +14,19 @@ so conversations were difficult.
 But I did manage to get my resume out to six firmware related
 teams that looked interesting.
 
-One of the highlights of the job fair was getting to see
-a Model S and a Roadster up close.
-They were both unlocked and free to tinker with.
-One thing that surprised me about the Model S was the lack
-of mechanical buttons on the dash.
-No ignition switch or parking brake button.
-Nearly everything is done through the touch screen.
-It is very simple and elegant.
+Whether this environment is conducive for finding good employees
+is debateable.
+
+Besides getting to meet the teams, one of the highlights
+of the job fair was getting to see a Model S and a Roadster up close.
+They were both parked at the entrance and unlocked so anyone could
+anyone could tinker with them.  What surprised me the most about the
+Model S was the lack of mechanical buttons on the console.  Nearly
+everything is integrated in to the center display.  There is no
+parking brake button or handle, for example. It is in a menu on
+the center console.  I imagine other manufacturers, which have had
+recalls due to their faulty mechanical switches, would have loved
+to just do a software update.
 
 Almost a month later I was contacted by a recruiter.
 He was trying to fill a position for a firmware test engineer.
