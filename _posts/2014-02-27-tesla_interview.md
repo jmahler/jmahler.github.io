@@ -120,3 +120,11 @@ Considering I haven't graduated college yet and this was the
 first interview I had from the first place I applied to I think
 I did pretty good.  Hopefully they will want someone like me
 after graduation.
+
+It is hard to believe that someone like me, with an automotive background
+, extensive Linux experience and a degree in Electrical Engineering,
+is not a good fit for Tesla.  Perhaps it is just an unfortunate result
+that the interview did not reveal what a good candidate I believe I am.
+
+It should have been a no brainer to hire someone like me.
+
