@@ -6,6 +6,13 @@ category: Linux
 tags: [Linux]
 ---
 
+Practically from birth I have had an interest in cars.
+More recently, thanks to Tesla and Elon Musk, I have become
+awakened to the benefits of electric cars and it has forever
+changed my perspective on my beloved gas cars.
+So when a classmate of mine told me that Tesla was having a job
+fair my response was where do I sign up?
+
 I introduced myself to Tesla Motors by attending a job
 fair they had at their plant in Fremont.
 The event was an absolute mad house.
