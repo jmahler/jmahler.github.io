@@ -47,6 +47,9 @@ you ask?
   - A boss leverages his authority to force employees to do what he wants.
   - People will follow a leader even if they have no authority.
 
+1. If I was hired for this position what would be the first project that
+I would work on?
+
 1. A project in development has two alternatives: A and B.
 Alternative A has been in development for several months and is having
 lots of problems.  It has been decided by you and several other
