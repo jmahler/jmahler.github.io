@@ -115,9 +115,10 @@ Does it contribute anything back to the community?
 
 1. Why did you choose Electrical Engineering?
 
-  I chose Electrical Engineering because it was the most challenging
-  degree among the areas I was interested in (electronics and programming).
-  I enjoy programming but Computer Science was not challenging enough.
+  Some people choose degrees because they are easy.
+  I chose mine because it was hard.
+  I have always enjoyed programming and electronics but Computer Science
+  was not challenging enough so I chose Electrical Engineering.
 
 1. Plot the magnitude of a 16-bit signed and unsigned number.
 
