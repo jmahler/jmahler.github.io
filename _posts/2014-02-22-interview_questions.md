@@ -16,15 +16,10 @@ well as what I am looking for in an answer.
 
 # Questions For Managers
 
-1. Tell me about a time when there was a disagreement among your employees
-and how you resolved it.
-  - Was he able to convince them without asserting his authority?
+In general I am looking for a manager who leads has employees and gives
+them the freedom to do their best work.
 
-1. Tell me about a time when one of your employees disagreed with you
-and how you resolved it.
-  - Was he able to convince the him without asserting his authority?
-
-1. Are there any books which have influenced your management style?
+1. What are your favorite books that have influenced your management style?
   1. [Peopleware][pw] by Tom DeMarco
   1. [Drive][drv] by Daniel Pink
   1. Getting Things Done by David Allen
@@ -33,13 +28,21 @@ and how you resolved it.
   [pw]: http://books.google.com/books?id=TVQUAAAAQBAJ
   [drv]: http://books.google.com/books?id=A-agLi2ldB4C
 
-1. If you could implement a change which would significantly increase
-productivity of your employees but which would also limit the control
-you have over them, would you do it?
-  - Poor managers tend to fear any loss of control or authority.
-  - Good managers cultivate an environment where their employees can
-    succeed and do not fear of a loss of control.
-  - (See [Peopleware][pw] by Tom DeMarco for a detailed discussion)
+1. Tell me about a time when there was a disagreement among your employees.
+  - Was he able to convince them without asserting his authority?
+
+1. Tell me about a time when one of your employees disagreed with you.
+  - Was he able to convince the him without asserting his authority?
+
+1. (similar) Have you ever had to force an employee to do something
+they disagreed with?
+
+1. If an employee did something different than what you told them to do,
+how would you respond?
+  - Does he trust his employees?
+  - Or is he threatened by a loss of control?
+
+1. (follow up) What if the solution they came up with was significantly better?
 
 1. If you had no authority over your employees would they still do what
 you ask?
@@ -47,34 +50,11 @@ you ask?
   - A boss leverages his authority to force employees to do what he wants.
   - People will follow a leader even if they have no authority.
 
+1. Your company uses Linux and other open source software.
+What does it do to contribute back to the open source community?
+
 1. If I was hired for this position what would be the first project that
 I would work on?
-
-1. A project in development has two alternatives: A and B.
-Alternative A has been in development for several months and is having
-lots of problems.  It has been decided by you and several other
-managers that B is a poor alternative that all development should proceed on A.
-One of the employees on the project is skeptical and decides to try out
-B in his spare time.
-Surprisingly, he determines that B is vastly superior to A in every respect.
-He presents his findings at the next weekly meeting
-where he argues that the decision made by you and the other
-managers was flawed and that all development on A should
-cease in favor of B.<br>
-How do you respond to this?
-  - A manager with a big ego and control issues will see this as an attack
-    upon their authority.  And they will likely punish the employee.
-  - A good manager will thank the employee and switch development to B.
-  - This situation is from a project I worked on involving a PCIe driver.
-    Instead of being thanked I was punished for showing that B was a better
-    solution.  I didn't have much confidence in the success of the project
-    after that.
-
-1. Your company uses Linux and other open source software.
-Does it contribute anything back to the community?
-  - They should feel obligated to contribute back to the community.
-  If their changes are used in a product and not being made public this
-  could be a licensing issue as well.
 
 # Questions From Managers
 
