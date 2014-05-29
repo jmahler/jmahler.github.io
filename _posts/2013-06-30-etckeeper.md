@@ -61,9 +61,10 @@ command, git can be used directly (add, rm, status, log, etc).
 # User Commits
 
 Commits in `/etc` can be performed as root but this is not a
-very good solution because it hides which user actual made the
-change.  A good solution is to use the `-E` option to `sudo`
-which is used to "preserve the user environment".
+very good solution because it obscures which user actually made the
+change.  A better solution is to use the `-E` option to `sudo`
+which is used to "preserve the user environment" and allow the user
+to be identified.
 
     jeri@hudson:/etc$ sudo -E git commit
 
