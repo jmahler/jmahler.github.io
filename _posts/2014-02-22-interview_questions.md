@@ -50,6 +50,8 @@ you ask?
   - A boss leverages his authority to force employees to do what he wants.
   - People will follow a leader even if they have no authority.
 
+1. Tell me about a situation when you were wrong.
+
 1. Your company uses Linux and other open source software.
 What does it do to contribute back to the open source community?
 
