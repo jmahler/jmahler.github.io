@@ -70,6 +70,13 @@ I would work on?
 
   (see Questions For Managers section)
 
+1. Why would you be a good candidate?
+
+  There are many reasons why I would be a good candidate.
+  But there are probably only a few that you are interested in.
+  Describe to me your ideal candidate and I will tell you if I have
+  anything in common.
+
 # Questions From Electrical Engineers and Programmers
 
 1. What is your favorite programming language?
