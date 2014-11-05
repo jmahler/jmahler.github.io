@@ -37,6 +37,14 @@ them the freedom to do their best work.
 1. (similar) Have you ever had to force an employee to do something
 they disagreed with?
 
+1. Suppose you gave your team the task of building the fastest car in
+   the world.  And one of the requirements it that it must use a gas
+   engine.  Then your team determines that they could accomplish this
+   using a gas engine but it would only be marginally faster.  If an
+   electric motor was used it would be far faster than anything ever made.
+   How do you proceed?
+  - Is it more important to follow specs to produce the best result?
+
 1. If an employee did something different than what you told them to do,
 how would you respond?
   - Does he trust his employees?
