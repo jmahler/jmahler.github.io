@@ -85,6 +85,8 @@ I would work on?
   Describe to me your ideal candidate and I will tell you if I have
   anything in common.
 
+1. Tell me something that's true, that almost nobody agrees with you on.
+
 # Questions From Electrical Engineers and Programmers
 
 1. What is your favorite programming language?
