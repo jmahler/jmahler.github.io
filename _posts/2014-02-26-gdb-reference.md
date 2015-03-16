@@ -12,7 +12,7 @@ tags: [Linux]
 
     (gdb) quit
 
-If the program takes arguments specifying them when starting gdb will
+If the program takes arguments, specifying them when starting gdb will
 not work.  Instead they must be specified when run is called.
 
     $ gdb <cmd>
