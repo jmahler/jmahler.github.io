@@ -51,7 +51,8 @@ To run with a ncurses view of the source code.
 
     info breakpoints                    list the break points
 
-    clear <location>                    clear all breakpoints
+    clear                               clear all breakpoints
+    clear <location>                    clear specific breakpoint
     delete <number>                     delete a breakpoint
 
     condition 1 item_to_remove==1
