@@ -6,6 +6,13 @@ category: Linux
 tags: [Linux]
 ---
 
+## Compilation
+
+Programs should be compiled with the `-g` option, otherwise the output
+will be much more difficult to understand.
+
+    $ gcc -g myprogram.c
+
 ## Running GDB
 
     $ gdb <cmd>
