@@ -35,7 +35,7 @@ To run with a ncurses view of the source code.
     run <argv> ...
     kill
 
-    file <exe>                          load a new executable
+    run                                 re-run the executable
 
     step                                forward, including functions
     next                                forward, skip functions
