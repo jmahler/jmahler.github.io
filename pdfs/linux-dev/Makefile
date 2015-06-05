@@ -5,4 +5,4 @@ linux-dev.pdf: linux-dev.tex main.bib
 	pdflatex linux-dev.tex
 
 clean:
-	-rm -f *.out *.log *.blg *.bcf *.bbl *.aux
+	-rm -f *.out *.log *.blg *.bcf *.bbl *.aux *.xml *.toc
