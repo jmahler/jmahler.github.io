@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage{graphviz}
+\usepackage{fullpage}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\lstset{
+	numbers=left,
+	basicstyle=\footnotesize,
+	captionpos=b,
+	xleftmargin=0.3in
+}
+
+\usepackage[
+	backend=biber,
+	autocite=footnote,
+	bibstyle=authortitle,
+	citestyle=verbose-inote,
+]{biblatex}
+\addbibresource{main.bib}
+\setlength\bibitemsep{1em}
+
+\begin{document}
+
+\title{Bug Hunt \#4: Bluetooth, WLAN, Coexistence Fix}
+\author{
+	\Large{Jeremiah Mahler}\\
+	\small{\href{mailto:jmmahler@gmail.com}{\textless jmmahler@gmail.com\textgreater}}
+}
+\date{\today}
+\maketitle
+%\clearpage
+
+%\thispagestyle{empty}
+%\tableofcontents
+%\clearpage
+
+I noticed a post on LKML about a problem that I thought was interesting
+\autocite{lkml201564703}.
+A person named Jonas Thiem was having problems using both the wireless lan
+and the Bluetooth on his computer.
+When they are both active he gets lots of errors and neither of them
+work.
+If he loads the \verb+iwlwifi+ module with the \verb+lln_disabled=1+
+option this gets around the problem.
+I agree with Jonas that, from a users point of view, they should both
+just work.
+A user should not have to fiddle with special driver options.
+
+A little research on Bluetooth and WLAN finds that they both share
+the frequency bands near 2.4 GHz\autocite{wiki:bt, wiki:802.11n}.
+So it is certainly possible that they could be interfering with each
+other.
+
+It would be interesting to test whether a computer running only
+Bluetooth would cause interference with a separate computer running
+only wlan.
+This would tell as whether it is due to wireless interference or some
+issue specific to the machine.
+
+A reply from Arend van Spriel\autocite{lkml201565137} mentioned the
+Linux kernel work on ``bluetooth coexistence'' which is aimed at
+addressing exactly this sort of issue.
+Specifically, when both Bluetooth and WLAN are used on the same machine,
+it can look at the frequencies being used and preemptively prevent
+interference by notifying the other to use a different frequency
+\autocite{bluetooth-coexistence}.
+
+More research is needed to address this problem.
+First, the problem needs to be reproduced on a machine that is available
+for testing.
+Second, a fix needs to be devised that aligns with the Bluetooth
+coexistence schem that is already present in the kernel.
+
+%\clearpage
+%\printbibliography[heading=bibintoc]
+
+\end{document}
