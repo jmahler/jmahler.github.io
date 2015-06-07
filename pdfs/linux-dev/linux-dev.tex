@@ -197,18 +197,6 @@ The manual method is better suited for developers where rebuild time is
 important.  For distributing a kernel the .deb method is better because
 of the clean install/remove process.
 
-\subsection{Custom Kernel Release Name}
-
-In some cases it is necessary to compile two different kernels which
-happen to have the same release name.  The problem that arises is that
-\verb+make install+ will install them both in the same place.  To get around
-this issue the \verb+CONFIG_LOCALVERSION+ option can be added/edited in the
-kernel's \verb+.config+.
-
-\begin{verbatim}
-CONFIG_LOCALVERSION="myversion"
-\end{verbatim}
-
 \subsection{Building Modules}
 
 The modules can be built independently from the kernel by using the \verb+M=+
