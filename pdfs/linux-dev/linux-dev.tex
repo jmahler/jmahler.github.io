@@ -216,6 +216,64 @@ To add extra flags use the \verb+EXTRA_CFLAGS+ variable.
 make EXTRA_CFLAGS="-DDEBUG" M=drivers/staging/comedi/drivers
 \end{verbatim}
 
+\subsection{Rebooting to the Last Built Kernel}
+
+A typical `git bisect` work flow is as follows:
+
+\begin{verbatim}
+make -j2
+make modules_install install
+(user takes note of the kernel version)
+sudo shutdown -r now
+(user selects kernel version to boot from Grub menu)
+(bootup ...)
+(perform tests)
+git bisect good/bad
+(build ...)
+\end{verbatim}
+
+However, expecting the user to take note of the version and reboot
+correctly takes time and can cause errors.  With just a
+few commands these steps can be automated.
+
+Grub provides the \verb+grub-reboot+ command which allows the default
+kernel used during the next boot to be set
+\footnote{`grub-reboot` requires that `GRUB\_DEFAULT` is set to saved.}.
+Either numbered offsets or text names can be used.
+
+\begin{verbatim}
+sudo grub-reboot 1>4
+sudo grub-reboot 1>Debian GNU/Linux, with Linux 4.1.0-rc6-next-20150604+
+\end{verbatim}
+
+The Linux kernel Makefile provides the \verb+kernelrelease+ target which
+will print the name of the currently built kernel.
+
+\begin{verbatim}
+make kernelrelease
+4.1.0-rc6-next-20150604+
+\end{verbatim}
+
+And these can be combined in to a shell script to set which kernel
+will be used during the next reboot as shown in Listing
+\ref{lst:kboot}.
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[label=lst:kboot, caption="Script to set next kernel
+to boot."]
+#!/bin/sh
+
+KERNELRELEASE=$(make kernelrelease) || exit 1
+
+MENUENTRY='1>'$(grep $KERNELRELEASE /boot/grub/grub.cfg |
+				grep menuentry |
+				head -n 1 |
+				awk -F \' '{print $2}')
+
+sudo grub-reboot "$MENUENTRY" || exit 1
+\end{lstlisting}
+\end{minipage}
+
 \section{Patches}
 
 \subsection{Typical Work Flow}
