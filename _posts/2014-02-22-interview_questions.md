@@ -19,6 +19,9 @@ well as what I am looking for in an answer.
 In general I am looking for a manager who leads has employees and gives
 them the freedom to do their best work.
 
+1. If I was hired for this position what would be the first project that
+I would work on?
+
 1. What are your favorite books that have influenced your management style?
   1. [Peopleware][pw] by Tom DeMarco
   1. [Drive][drv] by Daniel Pink
@@ -32,18 +35,10 @@ them the freedom to do their best work.
   - Was he able to convince them without asserting his authority?
 
 1. Tell me about a time when one of your employees disagreed with you.
-  - Was he able to convince the him without asserting his authority?
+  - Was he able to convince them without asserting his authority?
 
-1. (similar) Have you ever had to force an employee to do something
-they disagreed with?
-
-1. Suppose you gave your team the task of building the fastest car in
-   the world.  And one of the requirements it that it must use a gas
-   engine.  Then your team determines that they could accomplish this
-   using a gas engine but it would only be marginally faster.  If an
-   electric motor was used it would be far faster than anything ever made.
-   How do you proceed?
-  - Is it more important to follow specs to produce the best result?
+1. (similar) Have you ever had to tell an employee to do something that
+they disagreed with you about?
 
 1. If an employee did something different than what you told them to do,
 how would you respond?
@@ -60,23 +55,15 @@ you ask?
 
 1. Tell me about a situation when you were wrong.
 
-1. Your company uses Linux and other open source software.
-What does it do to contribute back to the open source community?
-
-1. If I was hired for this position what would be the first project that
-I would work on?
-
 # Questions From Managers
 
 1. Where do you see yourself in 5 years?
-
-  (A person should have some specific goal for the future.)
+  - Should have a specific goal that they are trying to achieve.  And
+    the position being sought should aligh with that goal.
 
 1. Do you have any questions for me?
-
-  (Having lots of questions helps to show interest.)
-
-  (see Questions For Managers section)
+  - Should have lots of questions which shows an interest in the company
+    and the position.  (see "Questions For Managers" section)
 
 1. Why would you be a good candidate?
 
@@ -84,8 +71,6 @@ I would work on?
   But there are probably only a few that you are interested in.
   Describe to me your ideal candidate and I will tell you if I have
   anything in common.
-
-1. Tell me something that's true, that almost nobody agrees with you on.
 
 # Questions From Electrical Engineers and Programmers
 
@@ -107,17 +92,18 @@ I would work on?
   allocate memory and return a pointer.  These must be freed to avoid
   a leak.
 
-  When using Gcc the Valgrind program is great for tracking down
-  hard to find memory leaks.
+  A good tool for finding memory leaks when using Gcc is Valgrind.
 
 1. Tell me about a challenging problem that kept you up at night.
 
 1. Why did you choose Electrical Engineering?
 
-  Some people choose degrees because they are easy.
-  I chose mine because it was hard.
-  I have always enjoyed programming and electronics but Computer Science
-  was not challenging enough so I chose Electrical Engineering.
+  I considered several degrees which were of interest to me: Computer
+  Science, Computer Engineering and Electrical Engineering.  I already had
+  a lot of experience programming so Computer Science would have been the
+  least challenging.  However the low level hardware and circuitry was
+  interesting to me as well.  I chose EE because it was the most challenging
+  degree that was of interest to me.
 
 1. Plot the magnitude of a 16-bit signed and unsigned number.
 
@@ -136,32 +122,7 @@ I would work on?
 asks?
   - A boss or a leader?
 
-1. You are writing a program to interface the PCIe bus and you have two
-design alternatives.  The first transfers the data to a shared
-buffer in memory.  The second uses a file and data is read in from a
-file handle.  The fastest solution is the preferred one.  Which do you choose?
-  - "Premature optimization is the root of all evil." - Donald Knuth
-  - Without profiling the program it is unknown whether either of these
-  choices would make any difference.  The bottle neck might be somewhere
-  else entirely in which case this optimization would be a waste to time.
-  - Programs should be written to maximize maintainability first.
-  Then, only after profiling the code, should optimization be performed.
-  - This situation is from a project I worked on involving a PCIe driver.
-  The shared buffer solution was assumed to be fastest and so the alternative
-  was not considered.  But it was also bug ridden,
-  unreliable and hard to maintain.  I showed that the solution using
-  file handles very fast, reliable and easy to use.
-  Unfortunately, due to the stubbornness of one of the managers, the project
-  continued with the inferior solution.
-
-1. If you started working on program and they used tabs but you use spaces,
-what would you do?
-  - You should follow whichever convention your work specifies or whatever
-  the majority of this code is already using.
-  
-1. In Engineering there are going to be disagreements about how things
-should be done.  Tell me about a time when you disagreed with your
-manager.
+1. Tell me about a time when you disagreed with your manager.
   - Did his manager assert his authority to get him to do something he
   did not agree with?
 
@@ -178,19 +139,7 @@ not anticipate before you were hired?
   about the projects they are working on.  And the company often
   benefits from their good ideas.
 
-1. One of your coworkers is not very nice to most people.
-And his criticism towards you is especially harsh.
-Tonight is your three year anniversary with your wife and you have
-reservations at an expensive restaurant.
-As you are leaving work you over hear your "favorite" employee struggling
-with a problem.  And it happens to be on a topic you know very well.<br>
-Do you stop and help or do you leave for dinner?
-  - It is tempting to want to punish those who have unjustifiably punished you
-  but this is always a no win situation.
-  - Stopping to help would be a nice gesture which could help mend the
-  relationship.
-  - If it appears that the problem will take some time to resolve you could
-  offer to meet with him in the morning, so you won't be late for dinner.
+1. Tell me about some of the projects you have worked on here.
 
 # Questions From Recruiters
 
