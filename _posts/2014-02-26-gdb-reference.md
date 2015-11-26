@@ -61,3 +61,7 @@ To run with a ncurses view of the source code.
 
     x 0x00101                           examine memory
 
+## References
+
+  [1] [8 gdb tricks you should know][1]
+  [1]: https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should
