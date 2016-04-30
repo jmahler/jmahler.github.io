@@ -13,10 +13,14 @@ and 14.04 LTS systems.
 
 Install the extra configuration tools.
 
+    # (Ubuntu 12.04 and 14.04)
     apt-get install \
-      unity-tweak-tool \
       compizconfig-settings-manager \
       compiz-pluins
+
+    # (Ubuntu 14.04)
+    apt-get install \
+      unity-tweak-tool
 
 Add keyboard shortcuts for launching terminals and browsers.
 Disable shortcuts which annoying.
