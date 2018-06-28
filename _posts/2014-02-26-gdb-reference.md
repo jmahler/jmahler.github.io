@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gdb Refernce"
+title: "Gdb Reference"
 date: 2014-02-26 1:00
 category: Linux
 tags: [Linux]
