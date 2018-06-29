@@ -6,6 +6,10 @@ category: Linux
 tags: [Linux]
 ---
 
+[1]: https://lkml.org/lkml/2015/1/8/679
+[2]: https://lkml.org/lkml/2015/1/9/21
+[3]: https://lkml.org/lkml/2015/1/10/189
+
 I encountered some strange behavior on my Lenovo X1 Carbon laptop
 running Linux.  Sometimes, after resuming from a suspend, the backlight
 brightness would be nearly off instead of at the correct level.
@@ -112,9 +116,9 @@ the following commit was found to have introduced the problem.
     Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>
 
 Success!  I found the patch which introduced the bug.  Next, I notify all
-the authors by sending a email [[1]].
+the authors by sending a email \[[1]\].
 
-The reply I got back was a bit surprising [[2]].
+The reply I got back was a bit surprising \[[2]\].
 
     On Fri, 09 Jan 2015, Jeremiah Mahler <jmmahler@gmail.com> wrote:
     > Jani, all,
@@ -225,16 +229,13 @@ to check for the minimum value fixes the problem.
      			panel->backlight.device->props.brightness =
     -- 
 
-And finally, I submitted a patch to fix the problem [[3]].
+And finally, I submitted a patch to fix the problem \[[3]\].
 
 # References
 
-  [1] [https://lkml.org/lkml/2015/1/8/679][1]
-  [1]: https://lkml.org/lkml/2015/1/8/679
+  \[1\] [https://lkml.org/lkml/2015/1/8/679][1]
 
-  [2] [https://lkml.org/lkml/2015/1/9/21][2]
-  [2]: https://lkml.org/lkml/2015/1/9/21
+  \[2\] [https://lkml.org/lkml/2015/1/9/21][2]
 
-  [3] [https://lkml.org/lkml/2015/1/10/189][3]
-  [3]: https://lkml.org/lkml/2015/1/10/189
+  \[3\] [https://lkml.org/lkml/2015/1/10/189][3]
 
