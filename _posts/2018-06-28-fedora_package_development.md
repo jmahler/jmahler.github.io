@@ -18,6 +18,36 @@ tags: [Linux, Packaging]
 [10]: https://fedoraproject.org/wiki/Packaging:Scriptlets
 [11]: https://discussion.fedoraproject.org
 [12]: https://github.com/rpm-software-management/dnf
+[13]: https://github.com/mmornati/docker-mock-rpmbuilder
+
+# How to Build RPMs with a Docker Image
+
+# Docker Notes
+
+    docker container ls
+    docker container ls -a
+
+How to copy to/from a container:
+
+    # to a running container
+    docker cp HELLO.txt 25322d67c71b:/
+
+    # from a running container
+    docker cp 25322d67c71b:/HELLO.txt .
+
+Start a stopped container:
+
+    docker start 25322d67c71b
+
+Accessing a running container:
+
+    docker run -it fedora:23 /bin/bash
+
+    # exiting attach will stop the container
+    docker attach 25322d67c71b
+
+    # exiting from exec will not stop the container
+    docker exec -it 25322d67c71b bash
 
 # References
 
@@ -44,3 +74,5 @@ tags: [Linux, Packaging]
 \[11\] [https://discussion.fedoraproject.org][11]
 
 \[12\] [https://github.com/rpm-software-management/dnf][12]
+
+\[13\] [https://github.com/mmornati/docker-mock-rpmbuilder][13]
