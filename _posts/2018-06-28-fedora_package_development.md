@@ -19,6 +19,19 @@ tags: [Linux, Packaging]
 [11]: https://discussion.fedoraproject.org
 [12]: https://github.com/rpm-software-management/dnf
 [13]: https://github.com/mmornati/docker-mock-rpmbuilder
+[14]: https://alt.fedoraproject.org/cloud/
+
+# Getting Started
+
+1. Get a Fedora machine setup for development.  Spinning up an EC2
+instance with the latest Fedora is probably the easiest way [[14]].
+Using Docker is another option but it is more complicated [[13]].
+
+1. Build a Hello World RPM [[1]].
+
+1. Upgrade to Rawhide.
+
+1. Learn how to use the Koji build system [[3]].
 
 # How to Build RPMs with a Docker Image
 
@@ -78,3 +91,5 @@ Accessing a running container:
 \[12\] [https://github.com/rpm-software-management/dnf][12]
 
 \[13\] [https://github.com/mmornati/docker-mock-rpmbuilder][13]
+
+\[14\] [https://alt.fedoraproject.org/cloud/][14]
