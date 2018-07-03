@@ -20,6 +20,8 @@ tags: [Linux, Packaging]
 [12]: https://github.com/rpm-software-management/dnf
 [13]: https://github.com/mmornati/docker-mock-rpmbuilder
 [14]: https://alt.fedoraproject.org/cloud/
+[15]: https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#One-off_contributions
+[16]: https://bugzilla.redhat.com/buglist.cgi?bug_status=ASSIGNED&bug_status=FAILS_QA&bug_status=MODIFIED&bug_status=NEEDINFO&bug_status=NEW&bug_status=ON_DEV&bug_status=ON_QA&bug_status=PASSES_QA&bug_status=POST&bug_status=RELEASE_PENDING&bug_status=VERIFIED&bugidtype=include&component=Package%20Review&field0-0-0=flagtypes.name&field0-1-0=bug_id&field0-2-0=bug_id&field0-3-0=bug_id&field0-4-0=bug_id&list_id=9069930&product=Fedora&query_format=advanced&query_format=advanced&type0-0-0=notsubstring&type0-1-0=notregexp&type0-2-0=notregexp&type0-3-0=notregexp&type0-4-0=notregexp&value0-0-0=fedora-review%2B&value0-1-0=%5E163776%24&value0-2-0=%5E163778%24&value0-3-0=%5E163779%24&value0-4-0=%5E177841%24
 
 # Getting Started
 
@@ -32,6 +34,16 @@ Using Docker is another option but it is more complicated [[13]].
 1. Upgrade to Rawhide.
 
 1. Learn how to use the Koji build system [[3]].
+
+1. Fix a bug in an existing package [[15], [16]].
+
+# Updating An Existing Package
+
+    rpmbuild -ba hello.spec
+
+    koji build --scratch f29 ~/rpmbuild/SRPMS/hello-2.10-2.fc28.src.rpm
+
+https://koji.fedoraproject.org/koji/userinfo?userID=4194
 
 # How to Build RPMs with a Docker Image
 
@@ -93,3 +105,7 @@ Accessing a running container:
 \[13\] [https://github.com/mmornati/docker-mock-rpmbuilder][13]
 
 \[14\] [https://alt.fedoraproject.org/cloud/][14]
+
+\[15\] [https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#One-off_contributions][15]
+
+\[16\] [https://bugzilla.redhat.com/buglist.cgi?bug_status=ASSIGNED&bug_status=FAILS_QA&bug_status...][16]
