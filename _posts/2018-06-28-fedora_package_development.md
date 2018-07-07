@@ -37,13 +37,50 @@ Using Docker is another option but it is more complicated [[13]].
 
 1. Fix a bug in an existing package [[15], [16]].
 
-# Updating An Existing Package
+# Command Quickref
 
-    rpmbuild -ba hello.spec
+## Setup a local build environment:
 
-    koji build --scratch f29 ~/rpmbuild/SRPMS/hello-2.10-2.fc28.src.rpm
+    $ rpmdev-setuptree
+    (~/rpmbuild)
 
-https://koji.fedoraproject.org/koji/userinfo?userID=4194
+This will setup a hierarchy like the following:
+
+    ~/rpmbuild/
+      SPECS/
+      SRPMS/
+      SOURCES/
+      RPMS/
+      ...
+
+Running a build (`rpmbuild -ba`) on a spec file under `SPECS/`,
+assuming sources have been placed in `SOURCES/`, will produce
+rpms in `RPMS/` and/or `SRPMS/`.
+
+## Build a package locally:
+
+    $ rpmbuild -ba hello.spec
+
+## Build using a Koji build server:
+
+    $ koji build --scratch f29 ~/rpmbuild/SRPMS/hello-2.10-2.fc28.src.rpm
+    https://koji.fedoraproject.org/koji/userinfo?userID=4194
+
+## How to clean the mock cache (`/var/cache/mock`):
+
+    $ mock --scrub all
+
+## Download sources for a spec file:
+
+    $ rpmbuild --undefine=_disable_source_fetch -ba package.spec
+
+    $ spectool -g -R package.spec
+
+## Install dependencies needed for rpmbuild:
+
+    $ dnf builddep package.spec
+    $ dnf builddep package.src.rpm
+
 
 # How to Build RPMs with a Docker Image
 
