@@ -22,6 +22,7 @@ tags: [Linux, Packaging]
 [14]: https://alt.fedoraproject.org/cloud/
 [15]: https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#One-off_contributions
 [16]: https://bugzilla.redhat.com/buglist.cgi?bug_status=ASSIGNED&bug_status=FAILS_QA&bug_status=MODIFIED&bug_status=NEEDINFO&bug_status=NEW&bug_status=ON_DEV&bug_status=ON_QA&bug_status=PASSES_QA&bug_status=POST&bug_status=RELEASE_PENDING&bug_status=VERIFIED&bugidtype=include&component=Package%20Review&field0-0-0=flagtypes.name&field0-1-0=bug_id&field0-2-0=bug_id&field0-3-0=bug_id&field0-4-0=bug_id&list_id=9069930&product=Fedora&query_format=advanced&query_format=advanced&type0-0-0=notsubstring&type0-1-0=notregexp&type0-2-0=notregexp&type0-3-0=notregexp&type0-4-0=notregexp&value0-0-0=fedora-review%2B&value0-1-0=%5E163776%24&value0-2-0=%5E163778%24&value0-3-0=%5E163779%24&value0-4-0=%5E177841%24
+[17]: https://fedoraproject.org/wiki/Packaging:Python
 
 # Getting Started
 
@@ -81,6 +82,14 @@ rpms in `RPMS/` and/or `SRPMS/`.
     $ dnf builddep package.spec
     $ dnf builddep package.src.rpm
 
+# Packaging Tips
+
+The shebang line for Python scripts in RPMs should be
+`#!/usr/bin/python2` or `#!/usr/bin/python3` and not
+`#!/usr/bin/env python` \[[17]\].  This is for two
+reasons.  The python version should be explicitly
+specified.  And env should be avoid to avoid picking
+up a users non-system version of python.
 
 # How to Build RPMs with a Docker Image
 
@@ -146,3 +155,5 @@ Accessing a running container:
 \[15\] [https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#One-off_contributions][15]
 
 \[16\] [https://bugzilla.redhat.com/buglist.cgi?bug_status=ASSIGNED&bug_status=FAILS_QA&bug_status...][16]
+
+\[17\]: [https://fedoraproject.org/wiki/Packaging:Python][17]
