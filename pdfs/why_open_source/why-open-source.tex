@@ -1,0 +1,58 @@
+\documentclass{article}
+
+\usepackage{graphviz}
+\usepackage{fullpage}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\lstset{
+	numbers=left,
+	basicstyle=\footnotesize,
+	captionpos=b,
+	xleftmargin=0.3in
+}
+
+\usepackage[
+	backend=biber,
+	autocite=footnote,
+	bibstyle=authortitle,
+	citestyle=verbose-inote,
+]{biblatex}
+\addbibresource{main.bib}
+\setlength\bibitemsep{1em}
+
+\begin{document}
+\nocite{amazoncompcust}
+\nocite{opensourceabuse}
+\nocite{doi:10.1287/orsc.2018.1202}
+\nocite{hiddenbenefit}
+\nocite{enterpriseoss}
+\nocite{raymond2001cathedral}
+\nocite{rosen2004osl}
+\nocite{wikiscovsibm}
+\nocite{linus2014sievers}
+
+\title{Why Open Source?}
+\author{
+	\Large{Jeremiah Mahler}\\
+	\small{\href{mailto:jmmahler@gmail.com}{\textless jmmahler@gmail.com\textgreater}}
+}
+\date{\today}
+\maketitle
+%\clearpage
+
+\thispagestyle{empty}
+%\tableofcontents
+%\clearpage
+
+Why contribute to Open Source projects?
+Why should companies encourage their employees to contribute to
+Open Source projects?
+This paper tries to answer these questions.
+
+\clearpage
+\printbibliography[heading=bibintoc]
+
+\end{document}
