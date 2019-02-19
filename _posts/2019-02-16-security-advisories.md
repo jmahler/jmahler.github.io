@@ -16,22 +16,48 @@ tags: [Linux, Packaging, Security]
 
 [5]: https://www.debian.org/security/2019/
 
-[6]: https://security-tracker.debian.org/tracker/
+[6]: https://launchpad.net/ubuntu-cve-tracker
 
-[7]: https://salsa.debian.org/security-tracker-team/security-tracker/tree/master/data
+[7]: https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2012-1096
+
+[8]: https://security-tracker.debian.org/tracker/
+
+[9]: https://salsa.debian.org/security-tracker-team/security-tracker/tree/master/data
+
+[10]: https://alas.aws.amazon.com/
+
+# Introduction
+
+Every major Linux distribution tracks security advisories and
+CVEs [[1], [4], [5], [8], [10]].  And the systems they use are
+largely the same.  This is a survey of those systems.
+
+| Distro      | Source?       | Store   | Server | Lang         | Other |
+|-------------|---------------|---------|--------|--------------|-------|
+| ArchLinux   | yes [[2]]     | db      | uswgi  | Python Flask |       |
+| AmazonLinux | no            | ???     | s3     | ???          |       |
+| Debian      | yes [[9]]     | git     | ???    | ???          |       |
+| Fedora      | ???           | ???     | ???    | ???          |       |
+| Ubuntu      | yes  [[6]]    | git [7] | ???    | ???          |       |
 
 # References
 
-\[1\] [https://security.archlinux.org/advisory][1]
+[[1]] https://security.archlinux.org/advisory
 
-\[2\] [https://wiki.archlinux.org/index.php/Arch_Security_Team][2]
+[[2]] https://wiki.archlinux.org/index.php/Arch_Security_Team
 
-\[3\] [https://github.com/archlinux/arch-security-tracker][3]
+[[3]] https://github.com/archlinux/arch-security-tracker
 
-\[4\] [https://usn.ubuntu.com/][4]
+[[4]] https://usn.ubuntu.com/
 
-\[5\] [https://www.debian.org/security/2019/][5]
+[[5]] https://www.debian.org/security/2019/
 
-\[6\] [https://security-tracker.debian.org/tracker/][6]
+[[6]] https://launchpad.net/ubuntu-cve-tracker
 
-\[7\] [https://salsa.debian.org/security-tracker-team/security-tracker/tree/master/data][7]
+[[7]] https://git.launchpad.net/ubuntu-cve-tracker/tree/active/CVE-2012-1096
+
+[[8]] https://security-tracker.debian.org/tracker/
+
+[[9]] https://salsa.debian.org/security-tracker-team/security-tracker/tree/master/data
+
+[[10]] https://alas.aws.amazon.com/
