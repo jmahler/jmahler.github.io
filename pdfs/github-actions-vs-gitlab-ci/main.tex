@@ -47,7 +47,7 @@ Actions\autocite{github-actions} and Gitlab CI\autocite{gitlab-ci}.
 To achieve real world comparisions a single project is used and
 the same solution is implemented using both systems.
 
-\section{Configuration Syntax}
+\section{Building a LaTeX Document}
 
 Each of the systems has a different syntax for configuring the
 steps to perform.
@@ -124,6 +124,45 @@ build:
 
 Could the Github Actions implementation be simplified by using the
 Docker image that Gitlab CI is using?
+Not really.
+The design of GitHub Actions is such that the Docker image must be
+defined inside it's own \verb+-action+ repo
+\autocite{github-action-docker}.
+Then this action can be used from the workflow file
+(Figure \ref{fig:github-action-with-docker}).
+Conceptually, the worflow file controls the virtual machine that
+is being run, the action controls the Docker image.
+
+\begin{figure}[!ht]
+\begin{lstlisting}
+diff --git a/.github/workflows/build.yml b/.github/workflows/build.yml
+index ed84053..36f8f3c 100644
+--- a/.github/workflows/build.yml
++++ b/.github/workflows/build.yml
+@@ -8,12 +8,10 @@ jobs:
+     steps:
+     - name: Checkout
+       uses: actions/checkout@v2
+-    - name: Install LaTeX
+-      run: |
+-        sudo apt install texlive-latex-base
+     - name: Make Doc
+-      run: |
+-        make
++      uses: xu-cheng/latex-action@master
++      with:
++        root_file: linux-packaging.tex
+     - name: Upload PDFs
+       uses: actions/upload-artifact@v2
+       with:
+\end{lstlisting}
+\label{fig:github-action-with-docker}
+\caption{Changes needed to use Docker with a GitHub action.}
+\end{figure}
+
+For building a LaTeX document, GitLab is the simpler solution.
+GitHub requires more setup and more boiler plate code to get
+an equivalent solution working.
 
 \clearpage
 \printbibliography[heading=bibintoc]
