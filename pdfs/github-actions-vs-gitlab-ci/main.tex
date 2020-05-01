@@ -1,0 +1,131 @@
+\documentclass{article}
+
+\usepackage{graphviz}
+\usepackage{fullpage}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{appendix}
+
+\usepackage{listings}
+\lstset{
+	numbers=left,
+	basicstyle=\ttfamily\footnotesize,
+	captionpos=b,
+	xleftmargin=1.0in
+}
+
+\usepackage[
+	backend=biber,
+	autocite=footnote,
+	bibstyle=authortitle,
+	citestyle=verbose-inote,
+]{biblatex}
+\addbibresource{main.bib}
+\setlength\bibitemsep{1em}
+
+\begin{document}
+
+\title{Github Actions vs Gitlab CI}
+\author{
+	\Large{Jeremiah Mahler}\\
+	\small{\href{mailto:jmmahler@gmail.com}{\textless jmmahler@gmail.com\textgreater}}
+}
+\date{\today}
+\maketitle
+%\clearpage
+
+\thispagestyle{empty}
+\tableofcontents
+
+\section{Introduction}
+
+Continuous Integration systems are widely used but the features
+the support are diverse.
+This paper compares two continuous integration systems: Github
+Actions\autocite{github-actions} and Gitlab CI\autocite{gitlab-ci}.
+To achieve real world comparisions a single project is used and
+the same solution is implemented using both systems.
+
+\section{Configuration Syntax}
+
+Each of the systems has a different syntax for configuring the
+steps to perform.
+Both use YAML but the structure is different.
+In this example a LaTeX document will be built and the artifact
+stored so it is available online.
+
+A first (naive) attempt at building a LaTeX document with Github Actions
+involved several steps
+(Figure
+\ref{fig:github-actions-build})\autocite{github-jmahler-resume-build.yml}\autocite{github-resume-build-91697435}.
+Using the Ubuntu 18.04 image, first the Git repo had to be checked out.
+Since this is a generic image, the necessary LaTeX packages had
+to be installed.
+Make is run which runs pdflatex to build the docs.
+And finally, the upload-artifact action is run to save the doc.
+
+\begin{figure}[!ht]
+\begin{lstlisting}
+# .github/workflows/build.yml
+
+name: Build
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Install LaTeX
+      run: |
+        sudo apt install texlive-latex-base
+    - name: Make Doc
+      run: |
+        make
+    - name: Upload PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: linux-packaging
+        path: linux-packaging.pdf
+\end{lstlisting}
+\label{fig:github-actions-build}
+\caption{Build of a LaTeX doc using Github Actions.}
+\end{figure}
+
+Building a LaTeX document with Gitlab CI is much simpler
+(Figure
+\ref{fig:gitlab-ci-build})\autocite{gitlab-jmmahler-resume-gitlab-ci.yml}\autocite{gitlab-resume-build-533777462}.
+The main reason for this simplification was the use of a
+Docker image which is setup for building LaTeX documents.
+The image was found in Gitlab by simply looking through their CI
+templates.
+Gitlab provides a wide assortment of templates with Docker images
+ready to build practically anything.
+
+\begin{figure}[!ht]
+\begin{lstlisting}
+# gitlab-ci.yml
+
+image: blang/latex
+
+build:
+  script:
+    - make
+  artifacts:
+    paths:
+      - "*.pdf"
+\end{lstlisting}
+\label{fig:gitlab-ci-build}
+\caption{Build of a LaTeX doc using Github Actions.}
+\end{figure}
+
+Could the Github Actions implementation be simplified by using the
+Docker image that Gitlab CI is using?
+
+\clearpage
+\printbibliography[heading=bibintoc]
+
+\end{document}
