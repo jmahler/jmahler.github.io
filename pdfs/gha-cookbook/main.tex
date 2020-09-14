@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{graphviz}
+\usepackage{fullpage}
+\usepackage{parskip}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{appendix}
+
+\usepackage{listings}
+\lstset{
+	numbers=left,
+	basicstyle=\ttfamily\footnotesize,
+	captionpos=b,
+	xleftmargin=0.3in
+}
+
+\usepackage[
+	backend=biber,
+	autocite=footnote,
+	bibstyle=authortitle,
+	citestyle=verbose-inote,
+]{biblatex}
+\addbibresource{main.bib}
+\setlength\bibitemsep{1em}
+
+\begin{document}
+
+\title{GitHub Actions Cookbook}
+\author{
+	\Large{Jeremiah Mahler}\\
+	\small{\href{mailto:jmmahler@gmail.com}{\textless jmmahler@gmail.com\textgreater}}
+}
+\date{\today}
+\maketitle
+%\clearpage
+
+\thispagestyle{empty}
+\tableofcontents
+
+\section{Introduction}
+
+This is a cookbook of GitHub Actions \autocite{githubactions} recipes.
+
+\section{Run Golang Unit Tests}
+
+To run Golang unit tests in a GitHub Action simply run \verb+go test+
+like you normally would \autocite{gotest} (Figure \ref{fig:gotest}).
+
+\begin{figure}[!ht]
+\begin{lstlisting}
+    - name: Test
+      run: |
+        go test -coverprofile=profile.cov github.com/jmahler/rgm
+        # test the cli but leave out coverage since it isn't useful
+        go test github.com/jmahler/rgm/rgm
+    - name: Integration Tests
+      run: |
+        go test -tags=integration github.com/jmahler/rgm
+        go test -tags=integration github.com/jmahler/rgm/rgm
+\end{lstlisting}
+\caption{Golang Unit Tests in a GitHub Action.}
+\label{fig:gotest}
+\end{figure}
+
+\section{TODO: Recipes}
+
+Future recipes to be added.
+Contributions are welcome.
+
+\begin{itemize}
+\item{Run Python Unit Tests}
+\item{Save .zip Build Artifacts}
+\item{Save Artifacts to S3 Bucket}
+\item{Save Artifacts to BitBucket}
+\item{Submit a Pull Request to a Second Git Repo}
+\item{Trigger Action When Other Git Repo is Updated}
+\item{Update an RPM Repo}
+\item{Update a GitHub.io Page}
+\item{Update a Wiki Page}
+\end{itemize}
+
+\clearpage
+\printbibliography[heading=bibintoc]
+
+\end{document}
